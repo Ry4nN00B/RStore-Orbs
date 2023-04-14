@@ -1,0 +1,12 @@
+Orbs:
+  Example:
+    Name: "&aExample"
+    ItemID: 1
+    ItemData: 0
+    Value: 1000
+    Lore:
+      - "&7Clique com o botão esquerdo para usar 1."
+      - "&7Clique com o botão direito para usar o pack."
+      - "&7Segure o shift com o botão direito para usar todas."
+      - " "
+      - "&7Valor: &a1000TP"

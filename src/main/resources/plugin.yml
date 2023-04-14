@@ -1,0 +1,25 @@
+name: RStore-Orbs
+version: 1.2
+main: me.ry4nn00b.orbs.Main
+authors: [ Ry4nN00B ]
+description: Plugin de Orbs, desenvolvido por [! Ry4nN00B#6006].
+depend:
+  - PowerNBT
+
+commands:
+  orbs:
+    description: Comando para abrir o menu de orbs.
+  giveorbs:
+    description: Comando para ganhar orbs.
+  removeorbs:
+    description: Comando para remover orbs de um player.
+  payorbs:
+    description: Comando para enviar orbs entre players.
+  orbsmsg:
+    description: Comando usado para habilitar/dsabilitar a mensagen do recebimento de orbs.
+  boostorbs:
+    description: Usado para dar um boost nas orbs do player.
+  boostorbsall:
+    description: Usado para dar boost a todos o servidor.
+  getorbs:
+    description: Comando para ganhar orbs físicas.
