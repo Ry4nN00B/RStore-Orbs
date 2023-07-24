@@ -9,20 +9,14 @@ import java.io.File;
 public class FileManager {
 
     public static FileConfiguration config;
-    public static FileConfiguration orbs;
     public static File configFile;
-    public static File orbsFile;
 
     public static void getFiles(Main plugin){
 
         configFile = new File(plugin.getDataFolder(), "Config.yml");
         config = YamlConfiguration.loadConfiguration(configFile);
 
-        orbsFile = new File(plugin.getDataFolder(), "Orbs.yml");
-        orbs = YamlConfiguration.loadConfiguration(orbsFile);
-
         plugin.saveResource("Config.yml", false);
-        //plugin.saveResource("Orbs.yml", false);
 
     }
 

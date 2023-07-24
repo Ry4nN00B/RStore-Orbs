@@ -14,7 +14,7 @@ public class CommandManager {
         Bukkit.getPluginCommand("orbsmsg").setExecutor(new Orbsmsg());
         Bukkit.getPluginCommand("boostorbs").setExecutor(new BoostOrbs());
         Bukkit.getPluginCommand("boostorbsall").setExecutor(new BoostOrbs());
-        //Bukkit.getPluginCommand("getorbs").setExecutor(new GetOrbs());
+        Bukkit.getPluginCommand("orbsreload").setExecutor(new Reload());
 
     }
 

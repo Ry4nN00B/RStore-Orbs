@@ -9,7 +9,7 @@
 #
 Orbs:
   TP: 100
-  Boost: 1.0
+  Boost: 1
   TPLimit: "2B"
   OrbsLimit: 20000000
 Mensagens:

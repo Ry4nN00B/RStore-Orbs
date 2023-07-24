@@ -34,8 +34,10 @@ public class Orbs implements Listener {
         //TP Variables__________________________________________________________________________________________________
         long tp_value = FileManager.config.getInt("Orbs.TP");
         long orbs_boost = FileManager.config.getInt("Orbs.Boost");
+        int playerBoost = Constructs.getPlayerBoost(p);
+        int finalBoost = (int) (orbs_boost * playerBoost);
         int playerOrbs = Constructs.getPlayerOrbs(p);
-        long totalTP = tp_value * orbs_boost;
+        long totalTP = (tp_value * finalBoost);
         long orbsTP = playerOrbs * totalTP;
 
         //1 Billion_____________________________________________________________________________________________________

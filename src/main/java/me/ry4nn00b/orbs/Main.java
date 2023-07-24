@@ -26,7 +26,7 @@ public final class Main extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(" ");
         Bukkit.getConsoleSender().sendMessage("§f§lNome: §bRStore-Orbs");
         Bukkit.getConsoleSender().sendMessage("§f§lCriador: §bRy4nN00B");
-        Bukkit.getConsoleSender().sendMessage("§f§lVersão: §b1.2");
+        Bukkit.getConsoleSender().sendMessage("§f§lVersão: §b1.4");
         Bukkit.getConsoleSender().sendMessage("§f§lEstado: §aIniciando");
         Bukkit.getConsoleSender().sendMessage(" ");
         Bukkit.getConsoleSender().sendMessage("§b§l======================");
@@ -50,7 +50,7 @@ public final class Main extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(" ");
         Bukkit.getConsoleSender().sendMessage("§f§lNome: §bRStore-Orbs");
         Bukkit.getConsoleSender().sendMessage("§f§lCriador: §bRy4nN00B");
-        Bukkit.getConsoleSender().sendMessage("§f§lVersão: §b1.2");
+        Bukkit.getConsoleSender().sendMessage("§f§lVersão: §b1.4");
         Bukkit.getConsoleSender().sendMessage("§f§lEstado: §cDesligando");
         Bukkit.getConsoleSender().sendMessage(" ");
         Bukkit.getConsoleSender().sendMessage("§b§l======================");

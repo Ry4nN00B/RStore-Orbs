@@ -17,10 +17,10 @@ public class Orbs {
 
         //Calculations__________________________________________________________________________________________________
         int tpValue = FileManager.config.getInt("Orbs.TP");
-        double orbsBoost = FileManager.config.getInt("Orbs.Boost");
-        double playerBoost = Constructs.getPlayerBoost(p);
-        double totalBoost = orbsBoost*playerBoost;
-        int TPTotal = (int) (tpValue * totalBoost);
+        int orbsBoost = FileManager.config.getInt("Orbs.Boost");
+        int playerBoost = Constructs.getPlayerBoost(p);
+        int totalBoost = orbsBoost*playerBoost;
+        long TPTotal = ((long) tpValue * totalBoost);
 
         long playerOrbs = Constructs.getPlayerOrbs(p);
         long TPFinal = playerOrbs*TPTotal;

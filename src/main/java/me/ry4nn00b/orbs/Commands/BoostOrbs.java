@@ -35,7 +35,7 @@ public class BoostOrbs implements CommandExecutor {
 
                 }
 
-                double boost = Double.parseDouble(args[0]);
+                int boost = Integer.parseInt(args[0]);
                 int time = Integer.parseInt(args[1]);
                 int finalTime = time*60;
                 Player p = Bukkit.getPlayer(args[2]);
@@ -100,7 +100,7 @@ public class BoostOrbs implements CommandExecutor {
 
                     }
 
-                    double boost = Double.parseDouble(args[0]);
+                    int boost = Integer.parseInt(args[0]);
 
                     FileManager.config.set("Orbs.Boost", boost);
                     try {
